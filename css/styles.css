@@ -1,0 +1,140 @@
+:root {
+    --main-color: #fff;
+    --blue-color: #2196f3;
+    --main-text-color: #212121;
+    --text-gray-color: #757575;
+    --footer-background: #2f303a;
+    --button-background: #f5f4fa;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.logo {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+
+    }
+
+.logo:visited {
+        color: var(--main-text-color);
+    }
+
+.logo-1 {
+        color: var(--blue-color);
+    }
+
+nav > ul > li > a {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+    }
+
+.link-contact {
+        color: var(--text-gray-color);
+    }
+
+    .link:hover, 
+    .link:focus,
+    .link-contact:focus,
+    .link-contact:hover {
+        color: var(--blue-color);
+    }
+   
+    .link:visited {
+        color: var(--main-text-color);
+    }
+
+    .link:visited:hover {
+        color: var(--blue-color)
+    }
+
+h1 {
+        opacity: 0%;
+    }
+    
+.button-filters [type] {
+        cursor: pointer;
+        background-color: var(--button-background);
+        color: var(--main-text-color);
+        border: none;
+        border-radius: 4px;
+        letter-spacing: 0.03em;
+    }
+
+    .button-filters [type]:hover {
+        background-color: var(--blue-color);
+        color: var(--main-color);
+    }
+
+.projects > h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.projects > p {
+    font-size: 16px;
+    color: var(--text-gray-color);
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+}
+
+footer {
+    background-color: var(--footer-background);
+    color: var(--main-color);
+    
+}
+
+.logo-footer {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--blue-color);
+    text-decoration: none;
+}
+
+address {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+    
+}
+
+address a {
+    color: var(--main-color);
+    opacity: 60%;
+    text-decoration: none;
+    
+}
+
+.logo-footer:visited,
+address > ul > li > a:visited {
+    text-decoration: none;
+}
+
+address > ul > li > a:hover, 
+address > ul > li > a:focus {
+    color: var(--blue-color);
+}
