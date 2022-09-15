@@ -35,7 +35,7 @@ header {
 
 .logo-web {
         color: var(--blue-color);
-}  
+}
 
 nav > ul > li > a {
         font-size: 14px;
@@ -43,25 +43,29 @@ nav > ul > li > a {
         line-height: 1.2;
         letter-spacing: 0.02em;
         text-decoration: none;
-}
+    }
 
 .link-contact {
         color: var(--text-gray-color);
         text-decoration: none;
 }
 
-    .link-nav:hover, 
-    .link-nav:focus,
-    .link-contact:focus,
-    .link-contact:hover {
+.link-nav {
+    color: var(--main-text-color);
+}
+
+.link-nav:hover, 
+.link-nav:focus,
+.link-contact:focus,
+.link-contact:hover {
         color: var(--blue-color);
     }
    
-    .link-nav:visited {
+.link-nav:visited {
         color: var(--main-text-color);
     }
 
-    .link-nav:visited:hover {
+.link-nav:visited:hover {
         color: var(--blue-color)
     }
 
