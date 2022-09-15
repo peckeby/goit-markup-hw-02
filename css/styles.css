@@ -91,12 +91,12 @@ nav > ul > li > a {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    transition: 0.25s;
 }
 
 .order-service:hover {
     color: var(--blue-color);
     background-color: var(--main-color);
-    transition: 250ms;
 }
 
 .main-h3 {
@@ -139,20 +139,22 @@ nav > ul > li > a {
     color: var(--text-gray-color);
 }
     
-.button-filters [type] {
+.button-filters .filter {
     cursor: pointer;
     background-color: var(--button-background);
     color: var(--main-text-color);
     border: 0px;
     border-radius: 4px;
     letter-spacing: 0.03em;
+    transition: 0.25s;
 }
 
-.button-filters [type]:hover {
+.button-filters .filter:hover {
     border: none;
     border-radius: 4px;
     background-color: var(--blue-color);
     color: var(--main-color);
+    
 }
 
 .projects > h2 {
