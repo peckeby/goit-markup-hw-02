@@ -1,7 +1,7 @@
 :root {
     --main-color: #fff;
     --blue-color: #2196f3;
-    --main-text-color: #212121;
+    --main-text-color: 	#212121;
     --text-gray-color: #757575;
     --footer-background: #2f303a;
     --button-background: #f5f4fa;
@@ -11,6 +11,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: var(--main-text-color);
 }
 
 ul {
@@ -22,7 +23,7 @@ header {
     font-size: 14px;
 }
 
-.logo {
+.logo-studio {
         font-family: 'Raleway', sans-serif;
         font-weight: 700;
         font-size: 26px;
@@ -30,16 +31,11 @@ header {
         letter-spacing: 0.03em;
         color: var(--logo-studio-color);
         text-decoration: none;
-
     }
 
-.logo:visited {
-        color: var(--main-text-color);
-    }
-
-.logo-1 {
+.logo-web {
         color: var(--blue-color);
-    }
+    }  
 
 nav > ul > li > a {
         font-size: 14px;
@@ -49,32 +45,96 @@ nav > ul > li > a {
         text-decoration: none;
     }
 
-.link {
-    color: var(--main-text-color);
-}
-
 .link-contact {
         color: var(--text-gray-color);
+        text-decoration: none;
     }
 
-    .link:hover, 
-    .link:focus,
+    .link-nav:hover, 
+    .link-nav:focus,
     .link-contact:focus,
     .link-contact:hover {
         color: var(--blue-color);
     }
    
-    .link:visited {
+    .link-nav:visited {
         color: var(--main-text-color);
     }
 
-    .link:visited:hover {
+    .link-nav:visited:hover {
         color: var(--blue-color)
     }
 
-h1 {
+.motto-order-button {
+    background-color: var(--footer-background);
+}
+
+.main-h2, .portfolio-h1 {
         opacity: 0%;
     }
+
+.main-h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    color: var(--main-color);
+    text-align: center;
+}
+
+.order-service {
+    color: var(--main-color);
+    background-color: var(--blue-color);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.order-service:hover {
+    color: var(--blue-color);
+    background-color: var(--main-color);
+    transition: 250ms;
+}
+
+.main-h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.features-info {
+    font-size: 14px;
+    color: var(--text-gray-color);
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+}
+
+.main-section-names {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    line-height: 1.2;
+
+}
+
+.our-team {
+    background-color: var(--button-background);
+}
+
+.main-section-names > ul> li {
+    font-size: 16px;
+    line-height: 1.1875;
+}
+
+.team-names {
+    font-weight: 500;
+}
+
+.team-info {
+    color: var(--text-gray-color);
+}
     
 .button-filters [type] {
         cursor: pointer;
@@ -113,13 +173,7 @@ footer {
 }
 
 .logo-footer {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
     color: var(--blue-color);
-    text-decoration: none;
 }
 
 address {
