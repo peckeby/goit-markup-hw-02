@@ -31,11 +31,11 @@ header {
         letter-spacing: 0.03em;
         color: var(--logo-studio-color);
         text-decoration: none;
-    }
+}
 
 .logo-web {
         color: var(--blue-color);
-    }  
+}  
 
 nav > ul > li > a {
         font-size: 14px;
@@ -43,12 +43,12 @@ nav > ul > li > a {
         line-height: 1.2;
         letter-spacing: 0.02em;
         text-decoration: none;
-    }
+}
 
 .link-contact {
         color: var(--text-gray-color);
         text-decoration: none;
-    }
+}
 
     .link-nav:hover, 
     .link-nav:focus,
@@ -69,16 +69,16 @@ nav > ul > li > a {
     background-color: var(--footer-background);
 }
 
-.main-h2, .portfolio-h1 {
-        opacity: 0%;
-    }
-
 .main-h1 {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
     color: var(--main-color);
     text-align: center;
+}
+
+.main-h2, .portfolio-h1 {
+    opacity: 0%;
 }
 
 .order-service {
@@ -116,7 +116,6 @@ nav > ul > li > a {
     font-size: 36px;
     letter-spacing: 0.03em;
     line-height: 1.2;
-
 }
 
 .our-team {
@@ -137,20 +136,20 @@ nav > ul > li > a {
 }
     
 .button-filters [type] {
-        cursor: pointer;
-        background-color: var(--button-background);
-        color: var(--main-text-color);
-        border: 0px;
-        border-radius: 4px;
-        letter-spacing: 0.03em;
-    }
+    cursor: pointer;
+    background-color: var(--button-background);
+    color: var(--main-text-color);
+    border: 0px;
+    border-radius: 4px;
+    letter-spacing: 0.03em;
+}
 
-    .button-filters [type]:hover {
-        border: none;
-        border-radius: 4px;
-        background-color: var(--blue-color);
-        color: var(--main-color);
-    }
+.button-filters [type]:hover {
+    border: none;
+    border-radius: 4px;
+    background-color: var(--blue-color);
+    color: var(--main-color);
+}
 
 .projects > h2 {
     font-weight: 700;
@@ -169,7 +168,6 @@ nav > ul > li > a {
 footer {
     background-color: var(--footer-background);
     color: var(--main-color);
-    
 }
 
 .logo-footer {
@@ -181,14 +179,12 @@ address {
     font-size: 14px;
     line-height: 1.8;
     letter-spacing: 0.03em;
-    
 }
 
 address a {
     color: var(--main-color);
     opacity: 60%;
     text-decoration: none;
-    
 }
 
 .logo-footer:visited,
