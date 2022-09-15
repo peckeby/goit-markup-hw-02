@@ -5,6 +5,7 @@
     --text-gray-color: #757575;
     --footer-background: #2f303a;
     --button-background: #f5f4fa;
+    --logo-studio-color: #000000;
 }
 
 
@@ -27,6 +28,7 @@ header {
         font-size: 26px;
         line-height: 1.2;
         letter-spacing: 0.03em;
+        color: var(--logo-studio-color);
         text-decoration: none;
 
     }
@@ -46,6 +48,10 @@ nav > ul > li > a {
         letter-spacing: 0.02em;
         text-decoration: none;
     }
+
+.link {
+    color: var(--main-text-color);
+}
 
 .link-contact {
         color: var(--text-gray-color);
@@ -74,12 +80,14 @@ h1 {
         cursor: pointer;
         background-color: var(--button-background);
         color: var(--main-text-color);
-        border: none;
+        border: 0px;
         border-radius: 4px;
         letter-spacing: 0.03em;
     }
 
     .button-filters [type]:hover {
+        border: none;
+        border-radius: 4px;
         background-color: var(--blue-color);
         color: var(--main-color);
     }
