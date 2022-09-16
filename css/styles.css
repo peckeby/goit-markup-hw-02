@@ -9,8 +9,11 @@
 }
 
 body {
+  background-color: var(--main-color);
   font-family: 'Roboto', sans-serif;
   color: var(--main-text-color);
+  letter-spacing: 0.03em;
+  font-size: 14px;
 }
 
 ul {
@@ -19,7 +22,6 @@ ul {
 
 header {
   font-weight: 500;
-  font-size: 14px;
 }
 
 .logo-studio {
@@ -27,7 +29,6 @@ header {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
   color: var(--logo-studio-color);
   text-decoration: none;
 }
@@ -36,9 +37,9 @@ header {
   color: var(--blue-color);
 }
 
-nav > ul > li > a {
-  font-size: 14px;
-  font-weight: 500;
+.link-nav-current,
+.link-nav,
+.site-nav {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -53,6 +54,7 @@ nav > ul > li > a {
   color: var(--main-text-color);
 }
 
+.link-nav-current,
 .link-nav:hover,
 .link-nav:focus,
 .link-contact:focus,
@@ -64,7 +66,8 @@ nav > ul > li > a {
   color: var(--main-text-color);
 }
 
-.link-nav:visited:hover {
+.link-nav:visited:hover,
+.link-nav:visited:focus {
   color: var(--blue-color);
 }
 
@@ -78,6 +81,8 @@ nav > ul > li > a {
   line-height: 1.4;
   color: var(--main-color);
   text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
 }
 
 .main-h2,
@@ -87,6 +92,10 @@ nav > ul > li > a {
 
 .order-service {
   color: var(--main-color);
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.06em;
+  line-height: 1.875;
   background-color: var(--blue-color);
   border: none;
   border-radius: 4px;
@@ -94,16 +103,15 @@ nav > ul > li > a {
   transition: 0.25s;
 }
 
-.order-service:hover {
+.order-service:hover,
+.order-service:focus {
   color: var(--blue-color);
   background-color: var(--main-color);
 }
 
 .main-h3 {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -111,14 +119,12 @@ nav > ul > li > a {
   font-size: 14px;
   color: var(--text-gray-color);
   line-height: 1.8;
-  letter-spacing: 0.03em;
 }
 
 .main-section-name {
   text-align: center;
   font-weight: 700;
   font-size: 36px;
-  letter-spacing: 0.03em;
   line-height: 1.2;
 }
 
@@ -126,7 +132,9 @@ nav > ul > li > a {
   background-color: var(--button-background);
 }
 
-.main-section-name > ul > li {
+.main-section-name,
+.team-name,
+.team-info {
   font-size: 16px;
   line-height: 1.1875;
 }
@@ -143,13 +151,16 @@ nav > ul > li > a {
   cursor: pointer;
   background-color: var(--button-background);
   color: var(--main-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1.625;
   border: 0px;
   border-radius: 4px;
-  letter-spacing: 0.03em;
   transition: 0.25s;
 }
 
-.filters-list .filter:hover {
+.filters-list .filter:hover,
+.filters-list .filter:focus {
   border: none;
   border-radius: 4px;
   background-color: var(--blue-color);
@@ -167,12 +178,10 @@ nav > ul > li > a {
   font-size: 16px;
   color: var(--text-gray-color);
   line-height: 1.875;
-  letter-spacing: 0.03em;
 }
 
 footer {
   background-color: var(--footer-background);
-  color: var(--main-color);
 }
 
 .logo-footer {
@@ -180,24 +189,21 @@ footer {
 }
 
 address {
+  color: var(--main-color);
   font-style: normal;
-  font-size: 14px;
   line-height: 1.8;
-  letter-spacing: 0.03em;
 }
 
-address a {
+.footer-contact,
+.footer-contact:visited {
   color: var(--main-color);
   opacity: 60%;
   text-decoration: none;
 }
 
-.logo-footer:visited,
-address > ul > li > a:visited {
-  text-decoration: none;
-}
-
-address > ul > li > a:hover,
-address > ul > li > a:focus {
+.footer-contact:hover,
+.footer-contact:focus,
+.logo-footer:visited {
   color: var(--blue-color);
+  opacity: 100%;
 }
